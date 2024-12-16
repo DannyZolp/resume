@@ -1,0 +1,7 @@
+{
+  "imports": {
+    "@openai/openai": "jsr:@openai/openai@^4.75.0",
+    "@supabase/auth-js": "npm:@supabase/auth-js@^2.67.0",
+    "@supabase/supabase-js": "jsr:@supabase/supabase-js@^2.47.6"
+  }
+}
