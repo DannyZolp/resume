@@ -59,7 +59,7 @@ export function App({ supabase }: AppProps) {
       <AppShell header={{ height: 60 }}>
         <AppShell.Header>
           <Group h="100%" px="md" grow>
-            <Title size={24}>Resume.Horse</Title>
+            <Title size={24}>resume.zolp.dev</Title>
             <Group justify="flex-end">
               {auth.loggedIn ? (
                 <Button

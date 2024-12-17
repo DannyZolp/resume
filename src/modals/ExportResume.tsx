@@ -211,6 +211,16 @@ export const ExportResumeModal = ({
             onChange={(e) => setJobDescription(e.target.value)}
           ></Textarea>
           <Group justify="end">
+            <Button
+              disabled={loadingRecommendation}
+              color="gray"
+              type="button"
+              onClick={() => {
+                setState("view");
+              }}
+            >
+              Skip
+            </Button>
             <Button type="submit" loading={loadingRecommendation}>
               Next
             </Button>
